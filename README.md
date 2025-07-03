@@ -60,15 +60,15 @@ git clone https://github.com/Hemanth-Mydugolam/rag-pipeline-project.git
 cd rag-pipeline-project
 ```
 
-### **2. Install Dependencies
+### **2. Install Dependencies**
 ``` bash
 pip install -r requirements.txt
 ```
 
-### **3. Prepare Data
+### **3. Prepare Data**
 Replace all of the existing with your resume documents (.pdf, .csv.) in the data/ directory
 
-### **4. Create FAISS Index
+### **4. Create FAISS Index**
 Replace the resume_docs, portfolio_docs,qna_docs with your data in the function "_build_index" in rag_pipeline.py file and then run the pipeline script to:
 - Chunk your documents
 - Generate embeddings
@@ -78,12 +78,12 @@ Replace the resume_docs, portfolio_docs,qna_docs with your data in the function 
 python rag_pipeline.py
 ```
 
-### **5. Run the Application
+### **5. Run the Application**
 ```bash
 python app.py
 ```
 
 #### Start asking resume-related questions like:
 
-"What are the key skills listed in Hemanth's resume?"
-"Does Hemanth has experience in Python and data analysis?"
+- "What are the key skills listed in Hemanth's resume?"
+- "Does Hemanth has experience in Python and data analysis?"
