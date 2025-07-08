@@ -1,17 +1,17 @@
-# 🤖 Resume Bot RAG Pipeline
+# Resume Bot RAG Pipeline
 
 **Resume Bot RAG Pipeline** is a Retrieval-Augmented Generation (RAG) system designed to function as a chatbot that can intelligently answer questions based on resume/portfolio or candidate information documents.
 
 ---
 
-## 📘 Overview
+## Overview
 
 The Resume Bot RAG Pipeline aims to provide an intelligent assistant capable of extracting and synthesizing information from a collection of resume and profile related documents.  
 By leveraging RAG principles, it combines **document retrieval** with **large language models (LLMs)** to generate accurate and contextually relevant responses to user queries about resumes.
 
 ---
 
-## 🧩 Key Components
+## Key Components
 
 ### **1. `app.py`**
 - The main application entry point  
@@ -51,7 +51,7 @@ Responsible for the core RAG workflow:
 
 ---
 
-## 🚀 Setup & Usage
+## Setup & Usage
 
 ### **1. Clone the Repository**
 
